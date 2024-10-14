@@ -34,10 +34,10 @@ function render(variables = {}) {
             ${cover}
           <img src="${variables.avatarURL}" class="photo" />
           <h1>${variables.name ? variables.name : "Alex "}${
-    variables.lastName ? variables.lastName : "Rello"
+    variables.lastName ? variables.lastName : " Rello"
   } </h1>
           <h2>${variables.role ? variables.role : "Dj / Event Promoter"}</h2>
-          <h3>${variables.city ? variables.city : "Madrid /"}${
+          <h3>${variables.city ? variables.city : "Madrid, "}${
     variables.country ? variables.country : "Spain"
   }</h3>
           <ul class="${
